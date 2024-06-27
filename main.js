@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        const resultado = (tempValue - 32) * 5 / 9; // Correct conversion from Fahrenheit to Celsius
+        const resultado = (tempValue - 32) * 5 / 9; 
         result.innerHTML = `${resultado.toFixed(2)} °C`;
     
     });
